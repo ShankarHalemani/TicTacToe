@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a460ed;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-style: solid;
+  border-color: black;
+  /* background: red; */
+  width: 25%;
+  margin-left: 35rem;
+}
+
+.inner-div {
+  border-color: #ff8787;
+  border-radius: 3px;
+  border-width: 5px;
+  margin: 5px;
+  border-style: solid;
+  background-color: #554994;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  /* padding: 30px 30px; */
+}
+
+.game {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.winner {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.to-play {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 412px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin-left: 0rem;
+    width: 100%;
+    border-color: black;
+  }
+
+  .inner-div {
+    margin-left: 2px;
+  }
+
+  .game {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+
+  .to-play {
+    font-size: 20px;
+  }
+
+  .winner {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+}
